@@ -178,52 +178,52 @@ public:
 int main()
 {
     // Task 1
-    // {
-    //     cout << "Task 1" << endl;
+    {
+        cout << "Task 1" << endl;
 
-    //     int a1 = 25, b1 = 4;
-    //     int a2 = 0;
-    //     float b2 = 0;
-    //     float a3 = 0, b3 = 4.5;
-    //     float a4 = 66;
-    //     double b4 = 1.1111;
-    //     double a5 = 9.1234, b5 = 0.0;
+        int a1 = 25, b1 = 4;
+        int a2 = 0;
+        float b2 = 0;
+        float a3 = 0, b3 = 4.5;
+        float a4 = 66;
+        double b4 = 1.1111;
+        double a5 = 9.1234, b5 = 0.0;
 
-    //     div<int, int>(a1, b1);
-    //     div<int, float>(a2, b2);
-    //     div<float, float>(a3, b3);
-    //     div<float, double>(a4, b4);
-    //     div<double, double>(a5, b5);
+        div<int, int>(a1, b1);
+        div<int, float>(a2, b2);
+        div<float, float>(a3, b3);
+        div<float, double>(a4, b4);
+        div<double, double>(a5, b5);
 
-    //     cout << endl;
-    // }
+        cout << endl;
+    }
 
     // Task 2
-    // {
-    //     cout << "Task 2" << endl;
+    {
+        cout << "Task 2" << endl;
 
-    //     Bar bar;
+        Bar bar;
 
-    //     int n;
-    //     do
-    //     {
-    //         cout << "Enter a number: ";
-    //         cin >> n;
-    //         if (n != 0)
-    //         {
-    //             try
-    //             {
-    //                 bar.set(n);
-    //             }
-    //             catch (const Ex& exc)
-    //             {
-    //                 cerr << "Exception value: " << exc << endl;
-    //             }    
-    //         }
-    //     } while (n != 0);
+        int n;
+        do
+        {
+            cout << "Enter a number: ";
+            cin >> n;
+            if (n != 0)
+            {
+                try
+                {
+                    bar.set(n);
+                }
+                catch (const Ex& exc)
+                {
+                    cerr << "Exception value: " << exc << endl;
+                }    
+            }
+        } while (n != 0);
 
-    //     cout << endl;
-    // }
+        cout << endl;
+    }
 
     // Task 3
     {
